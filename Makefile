@@ -13,3 +13,9 @@ run_hw_00:
 run_hw_01:
 	mpirun --use-hwthread-cpus 01_convolution
 
+02:
+	mpic++ -DNDEBUG -Ofast 02_sum_primes.cpp -o 02_sum_primes
+
+run_hw_02:
+	mpirun --use-hwthread-cpus 02_sum_primes
+
