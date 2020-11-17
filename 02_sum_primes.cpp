@@ -1,9 +1,6 @@
 #include <cstdio>
 #include <mpi.h>
 #include <cstdint>
-#include <algorithm>
-#include <random>
-#include <cassert>
 #include <cmath>
 
 #ifndef NDEBUG
